@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'YSButton_Example' do
+  pod 'YSButton', :path => '../'
+
+  target 'YSButton_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
