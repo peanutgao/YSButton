@@ -1,0 +1,6 @@
+framework module YSButton {
+  umbrella header "YSButton-umbrella.h"
+
+  export *
+  module * { export * }
+}

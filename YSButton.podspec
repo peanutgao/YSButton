@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'YSButton'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of YSButton.'
+  s.summary          = 'Custom Button for iOS'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,17 +18,17 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+Custom Button for iOS, can be used in any project, easy to switch UI.
                        DESC
 
   s.homepage         = 'https://github.com/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/YSButton'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { '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' => 'Joseph0750@gmail.com' }
+  s.author           = { 'Joseph Koh' => 'Joseph0750@gmail.com' }
   s.source           = { :git => 'https://github.com/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/YSButton.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '10.0'
+  s.ios.deployment_target = '11.0'
 
   s.source_files = 'YSButton/Classes/**/*'
   

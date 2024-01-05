@@ -1,0 +1,16 @@
+PODS:
+  - YSButton (0.1.0)
+
+DEPENDENCIES:
+  - YSButton (from `../`)
+
+EXTERNAL SOURCES:
+  YSButton:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  YSButton: 7b0be95d0bdfbf25a4dab6a7db0517f643b3d42d
+
+PODFILE CHECKSUM: cd601c4e8a765aaca5e572d029e72dd980b22472
+
+COCOAPODS: 1.14.3
