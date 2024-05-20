@@ -20,10 +20,6 @@ it, simply add the following line to your Podfile:
 pod 'YSButton'
 ```
 
-## Author
-
-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, Joseph0750@gmail.com
-
 ## License
 
 YSButton is available under the MIT license. See the LICENSE file for more info.
