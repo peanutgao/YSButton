@@ -115,8 +115,8 @@ public class YSButtonCustomStyle: YSButtonStyleProtocol {
 
 // MARK: - YSButtonStyleFactory
 
-enum YSButtonStyleFactory {
-    static func build(
+public enum YSButtonStyleFactory {
+    public static func build(
         for type: YSButton.StyleType,
         customStyle: YSButtonCustomStyle? = nil
     ) -> YSButtonStyleProtocol {
@@ -152,14 +152,13 @@ public class YSButton: UIButton {
             apply(style: styleInstance)
         }
     }
-
     public var customStyle: YSButtonCustomStyle? {
         didSet {
             applyStyle()
         }
     }
 
-    private(set) var gradientLayer: CAGradientLayer?
+    public var gradientLayer: CAGradientLayer?
 
     public init(styleType: StyleType = .default, frame: CGRect = .zero) {
         super.init(frame: frame)

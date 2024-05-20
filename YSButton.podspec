@@ -29,7 +29,7 @@ Custom Button for iOS, can be used in any project, easy to switch UI.
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '11.0'
-
+  s.swift_version = '5.0'
   s.source_files = 'YSButton/Classes/**/*'
   
   # s.resource_bundles = {

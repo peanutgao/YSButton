@@ -30,7 +30,7 @@
 /* Begin PBXFileReference section */
 		1CF78F6DFF84FD2ECAC6845E /* Pods-YSButton_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YSButton_Tests.release.xcconfig"; path = "Target Support Files/Pods-YSButton_Tests/Pods-YSButton_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		4F59487AD3BCF7A210AC73B8 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		5248E20544357BEF34A87B77 /* YSButton.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = YSButton.podspec; path = ../YSButton.podspec; sourceTree = "<group>"; };
+		5248E20544357BEF34A87B77 /* YSButton.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = YSButton.podspec; path = ../YSButton.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		607FACD01AFB9204008FA782 /* YSButton_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YSButton_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
