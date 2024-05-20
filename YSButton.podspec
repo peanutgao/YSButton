@@ -21,20 +21,20 @@ Pod::Spec.new do |s|
 Custom Button for iOS, can be used in any project, easy to switch UI.
                        DESC
 
-  s.homepage         = 'https://github.com/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/YSButton'
+  s.homepage         = 'https://github.com/peanutgao/YSButton'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Joseph Koh' => 'Joseph0750@gmail.com' }
-  s.source           = { :git => 'https://github.com/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/YSButton.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/peanutgao/YSButton.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '11.0'
   s.swift_version = '5.0'
   s.source_files = 'YSButton/Classes/**/*'
   
-  # s.resource_bundles = {
-  #   'YSButton' => ['YSButton/Assets/*.png']
-  # }
+  s.resource_bundles = {
+    'YSButton' => ['YSButton/PrivacyInfo.xcprivacy']
+  }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
