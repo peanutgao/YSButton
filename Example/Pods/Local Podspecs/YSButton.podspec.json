@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "summary": "Custom Button for iOS",
   "description": "Custom Button for iOS, can be used in any project, easy to switch UI.",
-  "homepage": "https://github.com/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/YSButton",
+  "homepage": "https://github.com/peanutgao/YSButton",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,11 +12,18 @@
     "Joseph Koh": "Joseph0750@gmail.com"
   },
   "source": {
-    "git": "https://github.com/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/YSButton.git",
+    "git": "https://github.com/peanutgao/YSButton.git",
     "tag": "0.1.0"
   },
   "platforms": {
     "ios": "11.0"
   },
-  "source_files": "YSButton/Classes/**/*"
+  "swift_versions": "5.0",
+  "source_files": "YSButton/Classes/**/*",
+  "resource_bundles": {
+    "YSButton": [
+      "YSButton/PrivacyInfo.xcprivacy"
+    ]
+  },
+  "swift_version": "5.0"
 }

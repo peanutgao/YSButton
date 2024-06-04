@@ -7,85 +7,97 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0C5198C97BE69D869F7B0AF48BEA113F /* YSButton-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 10F068C8FC379700FE6470716F96E5CC /* YSButton-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0CD143F9FAFBFBF9A62ED2176B8BDF88 /* YSButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 025E99A1D589676294A84F7BAA9132DF /* YSButton.swift */; };
+		28E09DBC5BAE2EA2573215639366565C /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 1DE74B9945FD5A34889D1EBA1A213978 /* PrivacyInfo.xcprivacy */; };
+		448EA67FBADCD3FD6B1B966B0E193802 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		4C2B6C268E7D02898DFA10B56D97C5F8 /* Pods-YSButton_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 004442E6F9A2ACB67B64EFAF6242B8FE /* Pods-YSButton_Tests-dummy.m */; };
+		6A7B9216B44C0048427DC35D7B2D029E /* YSButton-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3C910AB2E1B5BA89F35CD921A41E8173 /* YSButton-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6E1F2C978C88DC41E3420BC310880566 /* Pods-YSButton_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2BC9F37A144C055891C3E8CB726B2ED7 /* Pods-YSButton_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		82C19290F205FBCD40B8BE1146D52AD5 /* Pods-YSButton_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A30DF8C0D9D1F9F654040F9C1D340F0D /* Pods-YSButton_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8AC81C64E7C17CEDAE87CA43617D9D50 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		BC62CAB2467E9B48BEE2C4172CF9A614 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		9F19E5ADFCCF0AC107C65F17B65E8951 /* YSButton-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 87F6412055FEB2E2685BE47E410469B3 /* YSButton-dummy.m */; };
+		D015BBCE54EB0386E424EEC3DC4864B3 /* YSButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF6861DCB8A2CF40B518044E0ADB1CB3 /* YSButton.swift */; };
 		D1D4D00454BB6AD98C14BCA836745158 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		F4D06F9C96B2F5C3D534889069DAA35B /* YSButton-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 42C60F4A2E422D4C79C3B903F74BB71F /* YSButton-dummy.m */; };
+		E35A9C51025DCC897A7EAF6618B1CDD2 /* YSButton-YSButton in Resources */ = {isa = PBXBuildFile; fileRef = 67B9C5B55401DD7A849B13D1358E6F32 /* YSButton-YSButton */; };
 		FA52CD0AF3C3B32962DF77B2915108AA /* Pods-YSButton_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 42B930B08D1420FEF82DE92205D74516 /* Pods-YSButton_Example-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		191009F023F9012B4E1DC7A04A6CEFE0 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 271AC1322365471CAF44F9C0477B83F7;
-			remoteInfo = "Pods-YSButton_Example";
-		};
-		98504B37A9EF74A4B556B5FEB27A37C9 /* PBXContainerItemProxy */ = {
+		07DBE783FB0A6A59DFF1ECA39B3795E7 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = ACA804EC597FF58F63E22DA3085B760D;
 			remoteInfo = YSButton;
 		};
+		CF474C373C48D642F4DDAD7ACE55AF01 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FACA2E12339F8DDFB05E140F4970235E;
+			remoteInfo = "YSButton-YSButton";
+		};
+		ED1403304C17A41E2F88BD247C8F8390 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 271AC1322365471CAF44F9C0477B83F7;
+			remoteInfo = "Pods-YSButton_Example";
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		004442E6F9A2ACB67B64EFAF6242B8FE /* Pods-YSButton_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-YSButton_Tests-dummy.m"; sourceTree = "<group>"; };
-		025E99A1D589676294A84F7BAA9132DF /* YSButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = YSButton.swift; path = YSButton/Classes/YSButton.swift; sourceTree = "<group>"; };
-		10F068C8FC379700FE6470716F96E5CC /* YSButton-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YSButton-umbrella.h"; sourceTree = "<group>"; };
 		1BF778AB8794AD12A2E02EB78EE24AC3 /* Pods-YSButton_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-YSButton_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		1DE74B9945FD5A34889D1EBA1A213978 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; name = PrivacyInfo.xcprivacy; path = YSButton/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
 		2BC9F37A144C055891C3E8CB726B2ED7 /* Pods-YSButton_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-YSButton_Example-umbrella.h"; sourceTree = "<group>"; };
-		3F62CEE33CF859A8BE3BB2BE9485892A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		3C910AB2E1B5BA89F35CD921A41E8173 /* YSButton-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YSButton-umbrella.h"; sourceTree = "<group>"; };
 		42B930B08D1420FEF82DE92205D74516 /* Pods-YSButton_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-YSButton_Example-dummy.m"; sourceTree = "<group>"; };
-		42C60F4A2E422D4C79C3B903F74BB71F /* YSButton-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "YSButton-dummy.m"; sourceTree = "<group>"; };
 		45230125AAC67C9F6A6FF568DDF2D31A /* Pods-YSButton_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-YSButton_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		490616666CA98FA001DF5ED23B7B1044 /* Pods-YSButton_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-YSButton_Tests"; path = Pods_YSButton_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		49B9F0620BAE7E3FB778CFF47067F2F2 /* YSButton-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YSButton-prefix.pch"; sourceTree = "<group>"; };
 		4AA3CB641FDDA700C77AD18D3A545CEA /* Pods-YSButton_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YSButton_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		4B78745C7891E7E8BAB25B18EC63F921 /* YSButton-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YSButton-prefix.pch"; sourceTree = "<group>"; };
 		53066D364120075F2DDBC03A1231E431 /* Pods-YSButton_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-YSButton_Example.modulemap"; sourceTree = "<group>"; };
 		5761740248B7C392997CE18F187AA386 /* Pods-YSButton_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YSButton_Example.release.xcconfig"; sourceTree = "<group>"; };
+		67B9C5B55401DD7A849B13D1358E6F32 /* YSButton-YSButton */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "YSButton-YSButton"; path = YSButton.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		7151F7E11221C767DF5F1A9BB904D93A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		7338BABB65EE1D85E45BB96413553070 /* Pods-YSButton_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-YSButton_Example"; path = Pods_YSButton_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		83845E9BFBDB55971FCB3E2460B4CEB5 /* Pods-YSButton_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-YSButton_Tests.modulemap"; sourceTree = "<group>"; };
+		86B9E7DF22518A022C56C98E16900E7C /* YSButton-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "YSButton-Info.plist"; sourceTree = "<group>"; };
+		87F6412055FEB2E2685BE47E410469B3 /* YSButton-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "YSButton-dummy.m"; sourceTree = "<group>"; };
 		8D9F8B307B2E69EA31EE26BE5E296F6E /* Pods-YSButton_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YSButton_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		901F9DB78CB149BE83CB635C33669FE5 /* YSButton.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = YSButton.modulemap; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A30DF8C0D9D1F9F654040F9C1D340F0D /* Pods-YSButton_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-YSButton_Tests-umbrella.h"; sourceTree = "<group>"; };
+		A9EA12916EDC0E2A0078741CC62566CE /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		ABCEA5E6BF60747715EC14DC3CA6B218 /* Pods-YSButton_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YSButton_Tests-Info.plist"; sourceTree = "<group>"; };
-		AC87CCACB5ECCF3DB87706666DCF6172 /* YSButton-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "YSButton-Info.plist"; sourceTree = "<group>"; };
+		AF6861DCB8A2CF40B518044E0ADB1CB3 /* YSButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = YSButton.swift; path = YSButton/Classes/YSButton.swift; sourceTree = "<group>"; };
 		B0329ECA2DE3BC24BE1BDD2DDBF2898F /* Pods-YSButton_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YSButton_Example-frameworks.sh"; sourceTree = "<group>"; };
 		B406A1655943AF3439F87834CE9AD05A /* YSButton */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = YSButton; path = YSButton.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B4F7035B52E2E366BFEE9CB875418DB8 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		B8160433036E76CED2EC8D035EBC6B23 /* YSButton.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YSButton.release.xcconfig; sourceTree = "<group>"; };
+		C9D81B4B84867B5D955AD6A5D874E8D3 /* YSButton.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = YSButton.modulemap; sourceTree = "<group>"; };
 		CC43171D69020EB051B00958D89188CF /* Pods-YSButton_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YSButton_Example-Info.plist"; sourceTree = "<group>"; };
-		D23810ED2344E8D7411127E5B068E29C /* YSButton.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YSButton.debug.xcconfig; sourceTree = "<group>"; };
-		DE1E1B4B2805FC60756F713BEC78F944 /* YSButton.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YSButton.release.xcconfig; sourceTree = "<group>"; };
-		EAD18B7938ADEF57913D2019F1D28635 /* YSButton.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = YSButton.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		CCEBB75914CB361DDB97EB8D5B0207DA /* YSButton.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YSButton.debug.xcconfig; sourceTree = "<group>"; };
+		D2EF9BFE154CFFD38EE81091FEDA6280 /* ResourceBundle-YSButton-YSButton-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-YSButton-YSButton-Info.plist"; sourceTree = "<group>"; };
+		EC2CA8610BAB59BCFC39B5461370AB99 /* YSButton.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = YSButton.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		EE81501ED9A68705EFCFDB056BB4DD5B /* Pods-YSButton_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YSButton_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		F091659B05DDA7F64D10BC436CC31CD6 /* Pods-YSButton_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YSButton_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		FA6B7474E6210726E12B9CAEB894EB11 /* Pods-YSButton_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YSButton_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		054600EE58D966BA4C50C6C367B136A0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				448EA67FBADCD3FD6B1B966B0E193802 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		987594649494B2E44C86D872796581A5 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				D1D4D00454BB6AD98C14BCA836745158 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B6C4341820C5F43523F95ED8BF7D38BE /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				BC62CAB2467E9B48BEE2C4172CF9A614 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -97,34 +109,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		FEAEA470A5EEBFF1F6AE655EBC2D9607 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		04533888796D47C98C1D00AF984423D1 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				901F9DB78CB149BE83CB635C33669FE5 /* YSButton.modulemap */,
-				42C60F4A2E422D4C79C3B903F74BB71F /* YSButton-dummy.m */,
-				AC87CCACB5ECCF3DB87706666DCF6172 /* YSButton-Info.plist */,
-				4B78745C7891E7E8BAB25B18EC63F921 /* YSButton-prefix.pch */,
-				10F068C8FC379700FE6470716F96E5CC /* YSButton-umbrella.h */,
-				D23810ED2344E8D7411127E5B068E29C /* YSButton.debug.xcconfig */,
-				DE1E1B4B2805FC60756F713BEC78F944 /* YSButton.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/YSButton";
-			sourceTree = "<group>";
-		};
-		575ACB8357DB5177C70B5E5BEEB1F91E /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				B4F7035B52E2E366BFEE9CB875418DB8 /* LICENSE */,
-				3F62CEE33CF859A8BE3BB2BE9485892A /* README.md */,
-				EAD18B7938ADEF57913D2019F1D28635 /* YSButton.podspec */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
 		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -150,15 +144,15 @@
 			path = "Target Support Files/Pods-YSButton_Example";
 			sourceTree = "<group>";
 		};
-		697EC4B33C9D6F0C02A0165DD0F13553 /* YSButton */ = {
+		6C518439282A1F8DC7443D5704D0ACB6 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				025E99A1D589676294A84F7BAA9132DF /* YSButton.swift */,
-				575ACB8357DB5177C70B5E5BEEB1F91E /* Pod */,
-				04533888796D47C98C1D00AF984423D1 /* Support Files */,
+				7338BABB65EE1D85E45BB96413553070 /* Pods-YSButton_Example */,
+				490616666CA98FA001DF5ED23B7B1044 /* Pods-YSButton_Tests */,
+				B406A1655943AF3439F87834CE9AD05A /* YSButton */,
+				67B9C5B55401DD7A849B13D1358E6F32 /* YSButton-YSButton */,
 			);
-			name = YSButton;
-			path = ../..;
+			name = Products;
 			sourceTree = "<group>";
 		};
 		7640A1FC0EDC98AD9A1BDEE2EFF4841F /* Targets Support Files */ = {
@@ -170,13 +164,35 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
+		77B83B3AD235B757ABC341BEE191229E /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				A9EA12916EDC0E2A0078741CC62566CE /* LICENSE */,
+				7151F7E11221C767DF5F1A9BB904D93A /* README.md */,
+				EC2CA8610BAB59BCFC39B5461370AB99 /* YSButton.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		BDC4855A206FDE889D78B556AEA7D215 /* YSButton */ = {
+			isa = PBXGroup;
+			children = (
+				1DE74B9945FD5A34889D1EBA1A213978 /* PrivacyInfo.xcprivacy */,
+				AF6861DCB8A2CF40B518044E0ADB1CB3 /* YSButton.swift */,
+				77B83B3AD235B757ABC341BEE191229E /* Pod */,
+				FBD45446166FDDFB0684F6D57C106371 /* Support Files */,
+			);
+			name = YSButton;
+			path = ../..;
+			sourceTree = "<group>";
+		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				F7BC24348CF1670FC0E40A68BC65FD1D /* Development Pods */,
+				D8BEAA936A3632246CDFE6BD9B7CE089 /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				E23F9F2235C68082BAD8954C026A97CC /* Products */,
+				6C518439282A1F8DC7443D5704D0ACB6 /* Products */,
 				7640A1FC0EDC98AD9A1BDEE2EFF4841F /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
@@ -187,6 +203,14 @@
 				578452D2E740E91742655AC8F1636D1F /* iOS */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D8BEAA936A3632246CDFE6BD9B7CE089 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BDC4855A206FDE889D78B556AEA7D215 /* YSButton */,
+			);
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		DDDD04EC2C281FFA9DF28C3CC9B0ABF1 /* Pods-YSButton_Tests */ = {
@@ -205,32 +229,30 @@
 			path = "Target Support Files/Pods-YSButton_Tests";
 			sourceTree = "<group>";
 		};
-		E23F9F2235C68082BAD8954C026A97CC /* Products */ = {
+		FBD45446166FDDFB0684F6D57C106371 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				7338BABB65EE1D85E45BB96413553070 /* Pods-YSButton_Example */,
-				490616666CA98FA001DF5ED23B7B1044 /* Pods-YSButton_Tests */,
-				B406A1655943AF3439F87834CE9AD05A /* YSButton */,
+				D2EF9BFE154CFFD38EE81091FEDA6280 /* ResourceBundle-YSButton-YSButton-Info.plist */,
+				C9D81B4B84867B5D955AD6A5D874E8D3 /* YSButton.modulemap */,
+				87F6412055FEB2E2685BE47E410469B3 /* YSButton-dummy.m */,
+				86B9E7DF22518A022C56C98E16900E7C /* YSButton-Info.plist */,
+				49B9F0620BAE7E3FB778CFF47067F2F2 /* YSButton-prefix.pch */,
+				3C910AB2E1B5BA89F35CD921A41E8173 /* YSButton-umbrella.h */,
+				CCEBB75914CB361DDB97EB8D5B0207DA /* YSButton.debug.xcconfig */,
+				B8160433036E76CED2EC8D035EBC6B23 /* YSButton.release.xcconfig */,
 			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		F7BC24348CF1670FC0E40A68BC65FD1D /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				697EC4B33C9D6F0C02A0165DD0F13553 /* YSButton */,
-			);
-			name = "Development Pods";
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/YSButton";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		41C63A46E303A48D5045BDDB131249D2 /* Headers */ = {
+		051EAAC0266663A784407A9D725BB995 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0C5198C97BE69D869F7B0AF48BEA113F /* YSButton-umbrella.h in Headers */,
+				6A7B9216B44C0048427DC35D7B2D029E /* YSButton-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,7 +287,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				BF09DB4B316594E164A866C92046343E /* PBXTargetDependency */,
+				A6C5440D2B32F4F328F23860C62D52EB /* PBXTargetDependency */,
 			);
 			name = "Pods-YSButton_Example";
 			productName = Pods_YSButton_Example;
@@ -274,16 +296,17 @@
 		};
 		ACA804EC597FF58F63E22DA3085B760D /* YSButton */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F5F0C9B90ADCD0ABA5DE2B3767FC1A4C /* Build configuration list for PBXNativeTarget "YSButton" */;
+			buildConfigurationList = 7E2F7FE7459BA4A04C14BB78AF23E2EA /* Build configuration list for PBXNativeTarget "YSButton" */;
 			buildPhases = (
-				41C63A46E303A48D5045BDDB131249D2 /* Headers */,
-				4A642C106DC65DBB23BF623F0FB6E4A4 /* Sources */,
-				B6C4341820C5F43523F95ED8BF7D38BE /* Frameworks */,
-				8A89C9B02424FB4A84FE423FA5B74B1F /* Resources */,
+				051EAAC0266663A784407A9D725BB995 /* Headers */,
+				3019BBA2FC44BD0A2051D5E96DA934AE /* Sources */,
+				054600EE58D966BA4C50C6C367B136A0 /* Frameworks */,
+				1177814A56DACAACFBC32A7D9C034BFA /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				D4D359EB7FDBA4F8B197A732D849BF54 /* PBXTargetDependency */,
 			);
 			name = YSButton;
 			productName = YSButton;
@@ -302,12 +325,29 @@
 			buildRules = (
 			);
 			dependencies = (
-				C5F81EA3EB59CBC38E248860683445A6 /* PBXTargetDependency */,
+				1B20A1AF81BBC745C0D634E1ABA440C4 /* PBXTargetDependency */,
 			);
 			name = "Pods-YSButton_Tests";
 			productName = Pods_YSButton_Tests;
 			productReference = 490616666CA98FA001DF5ED23B7B1044 /* Pods-YSButton_Tests */;
 			productType = "com.apple.product-type.framework";
+		};
+		FACA2E12339F8DDFB05E140F4970235E /* YSButton-YSButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C95BBAC4F73B9A037A4E7C04BE9B89C1 /* Build configuration list for PBXNativeTarget "YSButton-YSButton" */;
+			buildPhases = (
+				B64DA22F16B975EAB919E3265B3EB837 /* Sources */,
+				FEAEA470A5EEBFF1F6AE655EBC2D9607 /* Frameworks */,
+				23F95B5636881C8DA078B8D0AE633200 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "YSButton-YSButton";
+			productName = YSButton;
+			productReference = 67B9C5B55401DD7A849B13D1358E6F32 /* YSButton-YSButton */;
+			productType = "com.apple.product-type.bundle";
 		};
 /* End PBXNativeTarget section */
 
@@ -327,13 +367,14 @@
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = E23F9F2235C68082BAD8954C026A97CC /* Products */;
+			productRefGroup = 6C518439282A1F8DC7443D5704D0ACB6 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				271AC1322365471CAF44F9C0477B83F7 /* Pods-YSButton_Example */,
 				B02A3E220F0C1C1FF3221F054381695E /* Pods-YSButton_Tests */,
 				ACA804EC597FF58F63E22DA3085B760D /* YSButton */,
+				FACA2E12339F8DDFB05E140F4970235E /* YSButton-YSButton */,
 			);
 		};
 /* End PBXProject section */
@@ -346,10 +387,19 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8A89C9B02424FB4A84FE423FA5B74B1F /* Resources */ = {
+		1177814A56DACAACFBC32A7D9C034BFA /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E35A9C51025DCC897A7EAF6618B1CDD2 /* YSButton-YSButton in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		23F95B5636881C8DA078B8D0AE633200 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28E09DBC5BAE2EA2573215639366565C /* PrivacyInfo.xcprivacy in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -363,6 +413,15 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		3019BBA2FC44BD0A2051D5E96DA934AE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D015BBCE54EB0386E424EEC3DC4864B3 /* YSButton.swift in Sources */,
+				9F19E5ADFCCF0AC107C65F17B65E8951 /* YSButton-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		3F4C89AAD3232E22B9BB995170B13F4C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -379,33 +438,102 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4A642C106DC65DBB23BF623F0FB6E4A4 /* Sources */ = {
+		B64DA22F16B975EAB919E3265B3EB837 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0CD143F9FAFBFBF9A62ED2176B8BDF88 /* YSButton.swift in Sources */,
-				F4D06F9C96B2F5C3D534889069DAA35B /* YSButton-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		BF09DB4B316594E164A866C92046343E /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = YSButton;
-			target = ACA804EC597FF58F63E22DA3085B760D /* YSButton */;
-			targetProxy = 98504B37A9EF74A4B556B5FEB27A37C9 /* PBXContainerItemProxy */;
-		};
-		C5F81EA3EB59CBC38E248860683445A6 /* PBXTargetDependency */ = {
+		1B20A1AF81BBC745C0D634E1ABA440C4 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-YSButton_Example";
 			target = 271AC1322365471CAF44F9C0477B83F7 /* Pods-YSButton_Example */;
-			targetProxy = 191009F023F9012B4E1DC7A04A6CEFE0 /* PBXContainerItemProxy */;
+			targetProxy = ED1403304C17A41E2F88BD247C8F8390 /* PBXContainerItemProxy */;
+		};
+		A6C5440D2B32F4F328F23860C62D52EB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = YSButton;
+			target = ACA804EC597FF58F63E22DA3085B760D /* YSButton */;
+			targetProxy = 07DBE783FB0A6A59DFF1ECA39B3795E7 /* PBXContainerItemProxy */;
+		};
+		D4D359EB7FDBA4F8B197A732D849BF54 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "YSButton-YSButton";
+			target = FACA2E12339F8DDFB05E140F4970235E /* YSButton-YSButton */;
+			targetProxy = CF474C373C48D642F4DDAD7ACE55AF01 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		08EF0B4DE2BAC9F293A577FE85A84339 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CCEBB75914CB361DDB97EB8D5B0207DA /* YSButton.debug.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/YSButton/YSButton-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/YSButton/YSButton-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/YSButton/YSButton.modulemap";
+				PRODUCT_MODULE_NAME = YSButton;
+				PRODUCT_NAME = YSButton;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		3E6C0EDEA12DB9CE88626D2CE2A3D6C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B8160433036E76CED2EC8D035EBC6B23 /* YSButton.release.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/YSButton/YSButton-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/YSButton/YSButton-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/YSButton/YSButton.modulemap";
+				PRODUCT_MODULE_NAME = YSButton;
+				PRODUCT_NAME = YSButton;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		59A5771531AA74FC8AD564178C02D375 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 8D9F8B307B2E69EA31EE26BE5E296F6E /* Pods-YSButton_Tests.release.xcconfig */;
@@ -441,38 +569,22 @@
 			};
 			name = Release;
 		};
-		7B159D731EC77A9E6366B64C36E775F3 /* Release */ = {
+		8B21FFCA51A5FC2BED51FC498A89C7C2 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DE1E1B4B2805FC60756F713BEC78F944 /* YSButton.release.xcconfig */;
+			baseConfigurationReference = CCEBB75914CB361DDB97EB8D5B0207DA /* YSButton.debug.xcconfig */;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/YSButton/YSButton-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/YSButton/YSButton-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				CODE_SIGNING_ALLOWED = NO;
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/YSButton";
+				IBSC_MODULE = YSButton;
+				INFOPLIST_FILE = "Target Support Files/YSButton/ResourceBundle-YSButton-YSButton-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/YSButton/YSButton.modulemap";
-				PRODUCT_MODULE_NAME = YSButton;
 				PRODUCT_NAME = YSButton;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
+				WRAPPER_EXTENSION = bundle;
 			};
-			name = Release;
+			name = Debug;
 		};
 		903A0004D3E6651EFD5D2E16214D101B /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -535,38 +647,6 @@
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Release;
-		};
-		932FBC21734EB2ADC1750B3D59A77618 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = D23810ED2344E8D7411127E5B068E29C /* YSButton.debug.xcconfig */;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/YSButton/YSButton-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/YSButton/YSButton-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/YSButton/YSButton.modulemap";
-				PRODUCT_MODULE_NAME = YSButton;
-				PRODUCT_NAME = YSButton;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
 		};
 		B4EFE046ACF8F37157F6E322C7FCFC28 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -633,6 +713,23 @@
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;
+		};
+		BACEB27F80C3DAE55969AAE900306CC3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B8160433036E76CED2EC8D035EBC6B23 /* YSButton.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGNING_ALLOWED = NO;
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/YSButton";
+				IBSC_MODULE = YSButton;
+				INFOPLIST_FILE = "Target Support Files/YSButton/ResourceBundle-YSButton-YSButton-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_NAME = YSButton;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
 		};
 		D69334CB1E17BE2AE8502CE69A1A9D34 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -758,6 +855,15 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		7E2F7FE7459BA4A04C14BB78AF23E2EA /* Build configuration list for PBXNativeTarget "YSButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				08EF0B4DE2BAC9F293A577FE85A84339 /* Debug */,
+				3E6C0EDEA12DB9CE88626D2CE2A3D6C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		9B6D806FCCFC7D005811D92AA0198801 /* Build configuration list for PBXNativeTarget "Pods-YSButton_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -767,11 +873,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F5F0C9B90ADCD0ABA5DE2B3767FC1A4C /* Build configuration list for PBXNativeTarget "YSButton" */ = {
+		C95BBAC4F73B9A037A4E7C04BE9B89C1 /* Build configuration list for PBXNativeTarget "YSButton-YSButton" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				932FBC21734EB2ADC1750B3D59A77618 /* Debug */,
-				7B159D731EC77A9E6366B64C36E775F3 /* Release */,
+				8B21FFCA51A5FC2BED51FC498A89C7C2 /* Debug */,
+				BACEB27F80C3DAE55969AAE900306CC3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
